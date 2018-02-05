@@ -1,0 +1,28 @@
+	cd GitTraining/
+	ls -ltr
+	git init
+	
+	git add  file1
+	git status
+	got commit file1 -m "commit"
+	git log --pretty=oneline
+	git config --global user.name "mishra"
+	
+	Dangling commit - 
+	git log --pretty=oneline
+	git fsck -lost-found
+	git reset --hard e69de29bb2d
+	
+	
+	git branch
+	git branch name
+	git checkout name
+	add new files , add & commit.
+	git merge name
+	 
+	git branch -d <branc name>
+	git diff shacode1..shacode2
+
+	Single merge rather than a branch merge - 
+	git cherry-pick <sha-code>
+	
